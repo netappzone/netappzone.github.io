@@ -7,13 +7,13 @@ const RESOURCES = {
 "favicon.ico": "29bdef326ace76113765ba4351ee0584",
 "index.html": "ceaec76760b6d8224213f830ce9f46a1",
 "/": "ceaec76760b6d8224213f830ce9f46a1",
-"main.dart.js": "b955e55fbb3b6fe7d9e51f50df276a53",
+"main.dart.js": "e5a840fcf19d3f560b186e86d9826976",
 "favicon.png": "d9422e71c9d8ad3a4bae4fbc85991197",
 "icons/Icon-192.png": "eb0d3f62242927ba7a8b783b597740d3",
 "icons/Icon-512.png": "96d714e787acce9c305ac7d88bf2aedb",
 "manifest.json": "4ee8dd154376255a123571b6e25fdfef",
 "assets/AssetManifest.json": "78c7e40a4813a74f8812676e1f59aa94",
-"assets/NOTICES": "f69e1d12c12600d1be58b7dc4a085d2a",
+"assets/NOTICES": "ec304483e3c41a4556aecf4158e3c911",
 "assets/FontManifest.json": "88133a89d9b9718a7d8cc97cf317e8b3",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Script-Regular.ttf": "55d2dcd4778875a53ff09320a85a5296",
@@ -58,7 +58,7 @@ const RESOURCES = {
 "assets/packages/flutter_inappwebview/t_rex_runner/t-rex.html": "16911fcc170c8af1c5457940bd0bf055",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
 "assets/fonts/Montserrat-Regular.ttf": "ee6539921d713482b8ccd4d0d23961bb",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf": "c1678b46f7dd3f50ceac94ed4e0ad01a",
 "assets/assets/cat/cat1.png": "abea19823be4332a9169c152a94f69a3",
 "assets/assets/cat/cat2.png": "ff3b9554f4b15d4503ab82df2465b98f",
@@ -124,7 +124,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
