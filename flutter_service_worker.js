@@ -5,18 +5,18 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "cceb824a6ddef6b316de0b90a52ba705",
 "favicon.ico": "434047909b777e454588945790b78067",
-"index.html": "eda7381c851f8c4d653a9121722c0e85",
-"/": "eda7381c851f8c4d653a9121722c0e85",
+"index.html": "e6d0aa44e02ed48d859bcfc0feebf33b",
+"/": "e6d0aa44e02ed48d859bcfc0feebf33b",
 "android-chrome-192x192.png": "cf67a6fd8701b3f0230cf0d73486c0e9",
 "apple-touch-icon.png": "6d9af8b245f262c05382874f5992602b",
-"main.dart.js": "3fa30b33a78dfc6373f650983c69f723",
+"main.dart.js": "0c3547d919e2bb9310c8d206ab8e5aba",
 "favicon2.png": "e7a7fbd3d112c47f91f5de427c3fe3ae",
 "favicon.png": "923226606abd9aae279023373a02f550",
 "android-chrome-512x512.png": "d072eafcef630c4d8b4c0909fdcdacfd",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "9d686e4fac80a705352598f18b9f7e22",
-"assets/AssetManifest.json": "43117140c847f0282c4c94cef92217a2",
+"assets/AssetManifest.json": "ad4b3c98da76a736f95f4234f307cfda",
 "assets/NOTICES": "d50ca4f923e901314ed0cb7d09d67c26",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
@@ -24,7 +24,8 @@ const RESOURCES = {
 "assets/assets/images/sup.jpg": "554a54e85f0ca62a6b5b63140037506d",
 "assets/assets/images/pix2.jpg": "e2f47d041b56ccb02bf797de6f223582",
 "assets/assets/images/face.jpg": "0a478ad22487894798702de309e5e589",
-"assets/assets/images/bu.png": "14b153aac48d81b2c04b185f21017551"
+"assets/assets/images/bu.png": "14b153aac48d81b2c04b185f21017551",
+"assets/assets/images/Screenshot%25202021-07-15%2520at%252005.26.09.png": "9096e98f793f16145b6d996bacae8ada"
 };
 
 // The application shell files that are downloaded before a service worker can
